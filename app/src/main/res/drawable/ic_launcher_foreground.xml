@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Top-left: Addition (+) centered at x=36, y=36 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M34,30 h4 v4 h4 v4 h-4 v4 h-4 v-4 h-4 v-4 h4 z" />
+        
+    <!-- Top-right: Subtraction (-) centered at x=72, y=36 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M66,34 h12 v4 h-12 z" />
+        
+    <!-- Bottom-left: Division (÷) centered at x=36, y=72 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M30,70 h12 v4 h-12 z M34,64 a2,2 0 1,1 4,0 a2,2 0 1,1 -4,0 M34,80 a2,2 0 1,1 4,0 a2,2 0 1,1 -4,0" />
+        
+    <!-- Bottom-right: Equals (=) centered at x=72, y=72 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M66,68 h12 v3 h-12 z M66,75 h12 v3 h-12 z" />
+        
+</vector>
